@@ -1,17 +1,18 @@
 import React from 'react'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
+// import Banner from './Components/Banner'
+// import Navbar from './Components/Navbar'
 import { Outlet } from 'react-router-dom'
-import Banner from './Components/Banner'
-import Navbar from './Components/Navbar'
 
 function Root() {
   return (
     <div className='font-custom'>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar>
             <div className='min-h-[90vh]'>
                 <Outlet></Outlet>
             </div>
-        <Footer></Footer>
+        <Footer></Footer> */}
+        <Outlet></Outlet>
     </div>
   )
   
