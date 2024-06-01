@@ -1,1 +1,1 @@
-Starter kit for react apps
+Personal starter kit for react apps
